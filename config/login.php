@@ -14,11 +14,11 @@ $stmt->bind_result($hash_almacenado);
 $stmt->fetch();
 
 if ($stmt->num_rows > 0) {
-    if (password_verify($usuario_contrasenia, 123)) { //problemas aquí
+    if ($usuario_contrasenia === $hash_almacenado) {
         echo "ingresamos";
-        /* $_SESSION['usuario'] = $usuario_ingresado;
+        $_SESSION['usuario'] = $usuario_ingresado;
         echo "Login exitoso";
-        header("Location: http://localhost/sistema_inventario_catolica/views/inicio.php"); */
+        header("Location: http://localhost/sistema_inventario_catolica/views/inicio.php");
     } else {
         echo "Contraseña Incorrecta";
     }

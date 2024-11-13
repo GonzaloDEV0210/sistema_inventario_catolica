@@ -15,6 +15,7 @@
             <img class="w-32 mb-3" src="http://localhost/sistema_inventario_catolica/icons/avatar-masculino.png" alt="Foto de perfil">
             <input class="border border-gray-400 rounded-lg w-80 py-2 pl-2" type="text" name="usuario" id="usuario" placeholder="Coloque su Usuario">
             <input class="border border-gray-400 rounded-lg w-80 py-2 pl-2" type="text" name="contrasenia" id="contrasenia" placeholder="Coloque su contraseña">
+            <span class="text-red-600 text-xs hidden">*Usuario o Contraseña incorrectos</span> <!-- Mostrar ésto cuando hay algo incorrecto -->
             <button class="bg-blue-700 text-white w-32 py-1 rounded-lg hover:bg-blue-500 hover:cursor-pointer duration-300 font-semibold mt-7" type="submit">Entrar</button>
         </form>
     </main>
