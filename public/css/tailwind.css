@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 @media (min-width: 1030px) {
   .\31 030\:mx-auto {
     margin-left: auto;
@@ -564,12 +568,28 @@ video {
     margin-left: 5rem;
   }
 
+  .\31 030\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .\31 030\:mt-5 {
     margin-top: 1.25rem;
   }
 
   .\31 030\:flex {
     display: flex;
+  }
+
+  .\31 030\:h-10 {
+    height: 2.5rem;
+  }
+
+  .\31 030\:h-8 {
+    height: 2rem;
+  }
+
+  .\31 030\:w-1\/2 {
+    width: 50%;
   }
 
   .\31 030\:w-1000 {
@@ -580,16 +600,92 @@ video {
     width: 13rem;
   }
 
+  .\31 030\:w-80 {
+    width: 20rem;
+  }
+
+  .\31 030\:w-96 {
+    width: 24rem;
+  }
+
   .\31 030\:flex-col {
     flex-direction: column;
+  }
+
+  .\31 030\:items-center {
+    align-items: center;
+  }
+
+  .\31 030\:justify-center {
+    justify-content: center;
+  }
+
+  .\31 030\:gap-4 {
+    gap: 1rem;
+  }
+
+  .\31 030\:gap-56 {
+    gap: 14rem;
   }
 
   .\31 030\:gap-6 {
     gap: 1.5rem;
   }
 
+  .\31 030\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .\31 030\:border-2 {
+    border-width: 2px;
+  }
+
+  .\31 030\:bg-azul_cat {
+    --tw-bg-opacity: 1;
+    background-color: rgb(27 92 255 / var(--tw-bg-opacity, 1));
+  }
+
+  .\31 030\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .\31 030\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .\31 030\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .\31 030\:text-center {
+    text-align: center;
+  }
+
+  .\31 030\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\31 030\:font-bold {
+    font-weight: 700;
+  }
+
   .\31 030\:text-azul_cat {
     --tw-text-opacity: 1;
     color: rgb(27 92 255 / var(--tw-text-opacity, 1));
+  }
+
+  .\31 030\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .\31 030\:hover\:cursor-pointer:hover {
+    cursor: pointer;
+  }
+
+  .\31 030\:hover\:bg-h_azul_cat:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(74 125 253 / var(--tw-bg-opacity, 1));
   }
 }
