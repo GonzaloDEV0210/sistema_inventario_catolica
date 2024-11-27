@@ -8,6 +8,7 @@ module.exports = {
       },
       width: {
         '1000': '1000px',
+        '1100': '1100px'
       },
       colors: {
         'azul_cat': '#1B5CFF',
