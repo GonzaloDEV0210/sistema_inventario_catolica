@@ -14,6 +14,7 @@ module.exports = {
         'azul_cat': '#1B5CFF',
         'verde_cat': '#36A2BC',
         'amar_cat': '#F4DA40',
+        'gris_input': '#9C9C9C'
       },
       backgroundColor: {
         'azul_cat': '#1B5CFF',
@@ -22,7 +23,6 @@ module.exports = {
         'h_azul_cat': '#4a7dfd',
         'h_verde_cat': '#66bdd3',
         'h_amar_cat': '#e5c507',
-
       }
     },
   },
