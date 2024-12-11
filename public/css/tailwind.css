@@ -601,6 +601,10 @@ video {
     display: flex;
   }
 
+  .\31 030\:inline-flex {
+    display: inline-flex;
+  }
+
   .\31 030\:h-10 {
     height: 2.5rem;
   }
@@ -627,6 +631,10 @@ video {
 
   .\31 030\:w-52 {
     width: 13rem;
+  }
+
+  .\31 030\:w-6 {
+    width: 1.5rem;
   }
 
   .\31 030\:w-80 {
@@ -705,6 +713,11 @@ video {
     background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
   }
 
+  .\31 030\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .\31 030\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -752,6 +765,11 @@ video {
   .\31 030\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .\31 030\:outline-none {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
   }
 
   .\31 030\:duration-300 {

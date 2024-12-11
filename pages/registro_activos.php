@@ -21,7 +21,7 @@
                 <label for="marca">Marca</label>
                 <input class="1030:border-2 1030:pl-1 1030:py-1 1030:rounded-md" type="text" name="marca" id="marca">
             </div>
-            <div class="f1030:lex 1030:flex-col 1030:gap-1">
+            <div class="1030:flex 1030:flex-col 1030:gap-1">
                 <label for="modelo">Modelo</label>
                 <input class="border-2 pl-1 py-1 rounded-md" type="text">
             </div>
@@ -80,9 +80,9 @@
         </form>
         <section>
             <div>
-                <div>
-                    <input type="text" name="busca_activo" id="buscar_activo" placeholder="Buscar activo">
-                    <img src="../public/icons/simbolo-de-la-interfaz-de-busqueda.png" alt="Icono de Búsqueda">
+                <div class="border-2 1030:inline-flex 1030:rounded-lg 1030:px-2 1030:py-1">
+                    <input class="1030:outline-none" type="text" name="busca_activo" id="buscar_activo" placeholder="Buscar activo">
+                    <img class="1030:w-6" src="../public/icons/simbolo-de-la-interfaz-de-busqueda.png" alt="Icono de Búsqueda">
                 </div>
                 <button class="1030:bg-green-700 1030:text-white 1030:font-bold 1030:px-5 1030:py-1 1030:rounded-lg 1030:hover:bg-green-600 1030:duration-300" type="submit">Buscar</button>
             </div>
